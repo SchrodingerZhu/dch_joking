@@ -1,0 +1,37 @@
+<div class="jumbotron">
+  <h2><%= gettext "最帅的人: %{name}!", name: "杜晨赫" %></h2>
+  <span class=dch></span>
+  <p class="lead">是不是被帅蒙了？<br />赶紧加他QQ: 447231732</p>
+</div>
+
+<div class="row marketing">
+  <div class="col-lg-6">
+    <h4>杜晨赫的关键字</h4>
+    <ul>
+      <li>
+        学霸
+      </li>
+      <li>
+        生物学大佬
+      </li>
+      <li>
+        肌肉男
+      </li>
+    </ul>
+  </div>
+
+  <div class="col-lg-6">
+    <h4>关于本页</h4>
+    <ul>
+      <li>
+        作者：朱一帆
+      </li>
+      <li>
+        目的：让DCH闻名于世！
+      </li>
+      <li>
+        这么帅的帅哥你怎么能不知道呢！
+      </li>
+    </ul>
+  </div>
+</div>
