@@ -28,8 +28,8 @@
         <%=img_tag("/images/hi.jpg", class: "hi")%>
       </li>
       <li>
-        目的：让DCH闻名于世！这么帅的帅哥你怎么能不知道呢！
-      </>
+        目的：让DCH闻名于世！这么帅的帅哥你怎么能不知道呢！$b + a \le c$
+      </li>
       <%= content_tag :li, DCH.get_dch("Hahaha~")%>
       <%= content_tag :li, "Jimmy's Email：" <> DCH.get_jimmy_email()%>
     </ul>

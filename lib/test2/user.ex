@@ -17,3 +17,22 @@ defmodule Test2.User do
     |> validate_required([:name, :email])
   end
 end
+defmodule Test2.Statistic do
+  use Ecto.Schema
+  import Ecto.Changeset
+
+
+  schema "statistics" do
+    field :name, :string
+    field :times, :integer
+
+    timestamps()
+  end
+
+  @doc false
+  def changeset(statistic, attrs) do
+    statistic
+    |> cast(attrs, [:name, :times])
+    |> validate_required([:name, :times])
+  end
+end

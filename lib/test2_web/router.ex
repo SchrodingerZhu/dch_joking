@@ -15,7 +15,6 @@ defmodule Test2Web.Router do
 
   scope "/", Test2Web do
     pipe_through :browser # Use the default browser stack
-
     get "/", PageController, :index
   end
 

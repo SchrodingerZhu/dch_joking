@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- -->
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -7,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>杜晨赫把妹网</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+    <script type = "text/x-mathjax-config"> MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
+
   </head>
 
   <body>
+    <%=raw DCH.update_times()%>
     <div class="container">
       <header class="header">
         <nav role="navigation">
