@@ -29,6 +29,12 @@ body, form, ul, table {
   background-image: url("/images/dch.png");
   background-size: 519px 71px;
 }
+.hi {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-bottom: 1em;
+}
 .dch {
   width: 562px;
   height: 1001px;

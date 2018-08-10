@@ -25,6 +25,7 @@
     <ul>
       <li>
         作者：朱一帆
+        <%=img_tag("/images/hi.jpg", class: "hi")%>
       </li>
       <li>
         目的：让DCH闻名于世！
@@ -32,6 +33,7 @@
       <li>
         这么帅的帅哥你怎么能不知道呢！
       </li>
+      <%= content_tag :li, DCH.get_dch("Hahaha~")%>
     </ul>
   </div>
 </div>
